@@ -1,6 +1,14 @@
 <p align="center">
-    <h3 align="center">Chunithm Hyper Ultra Screen Alignment Normalizer</h3>
+    <h3 align="center">
+        <span class="large">C</span>hunithm <span class="large">H</span>yper <span class="large">U</span>ltra <span class="large">S</span>creen <span class="large">A</span>lignment <span class="large">N</span>ormalizer
+    </h3>
 </p>
+
+<style>
+    .large {
+        font-size: 1.5em;
+    }
+</style>
 
 <br/>
 
