@@ -22,6 +22,9 @@ def calculate_factor():
 
     return dpi_1 / dpi_2
 
+def calculate_pixels_to_crop():
+    return int(CURRENT_SCREEN_HEIGHT - CHU3_SCREEN_HEIGHT * CHU3_SCREEN_SIZE / CURRENT_SCREEN_SIZE)
+
 def set_window_size_and_position(hwnd, width, height, x, y):
     win32gui.MoveWindow(hwnd, x, y, width, height, True)
 
@@ -59,7 +62,8 @@ def restore_window(hwnd, width, height, x, y):
 try:
     window_title = "teaGfx DirectX Release"
     zoom_factor = calculate_factor()
-    print(f"Zoom factor: {zoom_factor}")
+    print(f"Scaling factor: {zoom_factor}")
+    print(f"{calculate_pixels_to_crop()} pixels cropped from the top.")
 
     result = align_window_bottom(window_title, zoom_factor)
     if result is None:
