@@ -1,14 +1,14 @@
 <p align="center">
     <h3 align="center">
-        <span class="large">C</span>hunithm <span class="large">H</span>yper <span class="large">U</span>ltra <span class="large">S</span>creen <span class="large">A</span>lignment <span class="large">N</span>ormalizer
+        <span style="font-size: 2em; font-weight: bold;">C</span>hunithm 
+        <span style="font-size: 2em; font-weight: bold;">H</span>yper 
+        <span style="font-size: 2em; font-weight: bold;">U</span>ltra 
+        <span style="font-size: 2em; font-weight: bold;">S</span>creen 
+        <span style="font-size: 2em; font-weight: bold;">A</span>lignment 
+        <span style="font-size: 2em; font-weight: bold;">N</span>ormalizer
     </h3>
 </p>
 
-<style>
-    .large {
-        font-size: 1.5em;
-    }
-</style>
 
 <br/>
 
