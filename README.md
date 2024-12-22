@@ -14,7 +14,7 @@
 
 ## Introduction
 
-This program helps you play Chunithm on a non-32 inch monitor by increasing the window size to emulate a 32 inch screen while aligning the bottom of the window with the bottom of your monitor. \
+This program makes it easier to use your 32 inch Chunithm controller with your non-32 inch monitor by increasing the window size to simulate a 32 inch screen. It aligns the bottom of the window with the bottom of your monitor. \
 Note that because of that some elements in-game won't be visible anymore.
 
 If you already own [Lossless Scaling](https://store.steampowered.com/app/993090/Lossless_Scaling/) and are too lazy to calculate the right scaling ratio and top pixels to crop, you can still follow the installation and run the program once to get the exact values depending on your screen.
